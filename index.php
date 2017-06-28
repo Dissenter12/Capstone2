@@ -1,5 +1,7 @@
 
 <?php
+$home='active';
+$products='';
 
 function display_content(){
 echo '

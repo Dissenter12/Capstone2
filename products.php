@@ -1,5 +1,7 @@
 
 <?php
+$home='';
+$products='active';
 
 function display_content(){
 echo '
@@ -13,23 +15,33 @@ echo '
       <ol class="carousel-indicators">
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
         <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
       </ol>
 
       <!-- Wrapper for slides -->
       <div class="carousel-inner" role="listbox">
+
         <div class="item active">
           <img src="https://placehold.it/800x400?text=IMAGE" alt="Image">
           <div class="carousel-caption">
-            <h3>Sell $</h3>
-            <p>Money Money.</p>
+            <h3>Product Name</h3>
+            <p>top shot.</p>
           </div>      
         </div>
 
         <div class="item">
           <img src="https://placehold.it/800x400?text=Another Image Maybe" alt="Image">
           <div class="carousel-caption">
-            <h3>More Sell $</h3>
-            <p>Lorem ipsum...</p>
+            <h3>Product Name</h3>
+            <p>right side shot.</p>
+          </div>      
+        </div>
+
+        <div class="item">
+          <img src="https://placehold.it/800x400?text=Another Image Maybe" alt="Image">
+          <div class="carousel-caption">
+            <h3>Product Name</h3>
+            <p>left side shot.</p>
           </div>      
         </div>
       </div>
